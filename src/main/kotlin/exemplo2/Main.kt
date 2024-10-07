@@ -1,7 +1,7 @@
 package exemplo2
 
 fun main() {
-    val floyd = Floyd(4)
+    val floyd = Floyd(6)
     floyd.imprime()
-    floyd.imprimeCaractere()
+    floyd.imprime(false)
 }
