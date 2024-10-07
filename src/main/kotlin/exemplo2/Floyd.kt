@@ -1,7 +1,8 @@
 package exemplo2
 
 class Floyd (
-    private var lines:Int = 1
+    private val lines:Int = 1,
+    var simbolo: Char = '#'
     ){
 
     fun imprime(numeros:Boolean = true){
@@ -26,7 +27,7 @@ class Floyd (
     private fun imprimeCaractere(){
         for(linha in 1..lines){
             for(coluna in 1..linha){
-                print("#")
+                print("$simbolo")
             }
             println()
         }
